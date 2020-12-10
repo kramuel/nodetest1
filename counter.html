@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #ffdddd;
+      }
+    </style>
+    <title>hej</title>
+  </head>
+  <body>
+    <h1>Counter</h1>
+    <form action="/compute?x&y&op">
+      <label for="x">X:</label><br />
+      <input type="number" id="x" name="x" value="0" /><br />
+      <label for="y">Y:</label><br />
+      <input type="number" id="y" name="y" value="0" /><br /><br />
+      <select id="op" name="op">
+        <option value="plus">Plus</option>
+        <option value="minus">Minus</option>
+        <option value="div">Divide</option>
+        <option value="times">Times</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
