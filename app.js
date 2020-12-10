@@ -63,7 +63,6 @@ http
       res.write("</body>");
       res.write("</html>");
       res.end();
-      res.end();
     } else if (p.pathname == "/") {
       fs.readFile("counter.html", function (err, data) {
         res.write(data);
